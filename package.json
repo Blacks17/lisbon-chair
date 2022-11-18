@@ -1,0 +1,15 @@
+{
+  "name": "lisbon-chair",
+  "version": "1.0.0",
+  "description": "portfolio lisbon chair",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "ramadhani saputra",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
+}
