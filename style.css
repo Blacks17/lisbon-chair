@@ -216,3 +216,49 @@ footer {
   font-size: 14px;
   color: #495057;
 }
+
+/* 1063px */
+@media (max-width: 1063px) {
+  .container {
+    margin-top: 20vh;
+    width: 1005;
+    padding: 20px;
+  }
+
+  header {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 10vh;
+  }
+
+  .header-text-box {
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+    padding: 10%;
+  }
+
+  .grid-3-cols {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 80px;
+  }
+  .features {
+    text-align: center;
+  }
+  h2 {
+    margin-bottom: 60px;
+  }
+
+  .sec-features {
+    margin-bottom: 10vh;
+  }
+
+  .testimonial-box {
+    grid-column: 1/-1;
+  }
+}
