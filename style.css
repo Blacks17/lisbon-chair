@@ -25,6 +25,7 @@ body {
   font-family: "Inter", sans-serif;
   color: #343a40;
   border-bottom: 8px solid #087f5b;
+  overflow-x: hidden;
 }
 
 .container {
